@@ -282,10 +282,6 @@ img {
   border-radius: .5rem;
   transition: all 0.3s ease;
 }
-.about__img img:hover{
-  width:210px;
-  
-}
 
 /* SKILLS */
 .skill .title{
