@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+    
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="color-1.css" class="alternate-style" title="color-1" >
+        <link rel="stylesheet" href="color-1.css" class="alternate-style" title="color-1" disabled>
+        <link rel="stylesheet" href="color-2.css" class="alternate-style" title="color-2" disabled>
+        <link rel="stylesheet" href="color-3.css" class="alternate-style" title="color-3" disabled> 
+        <link rel="stylesheet" href="color-4.css" class="alternate-style" title="color-4" disabled>
+        <link rel="stylesheet" href="color-5.css" class="alternate-style" title="color-5" disabled>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body class="dark">
+    
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">portfolio</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active"><i id="logo" class="bx bxs-home"></i>Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link"><i id="logo" class="bx bxs-user"></i>About</a></li>
+                        <li class="nav__item"><a href="#skill" class="nav__link"><i id="logo" class="fa fa-list"></i>Skills</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link"><i id="logo" class="fa fa-comments"></i>Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--HOME-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Mayur</span><br>I'm a <span class="typing"></span></h1>
+
+                    <a href="mailto:mayur_r@ee.iitr.ac.in" class="button">Mail Me</a>
+                </div>
+
+                <div class="home__social">
+                    <a href=https://in.linkedin.com/in/mayur-rajpal-628050229?trk=people-guest_people_search-card class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href=https://www.instagram.com/_mayur_rajpal/ class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href=https://github.com/mayurrajpal class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="profilepic5_bg.png">
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--ABOUT-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="profilepic5.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Mayur Rajpal</h2>
+                        <p class="about__text">I am a freshman at IIT Roorkee pursuing my B.tech in Electrical Engineering. I was born and braught up in Ludhiana and I'm currentlyresiding in Roorkee. I'm exploring the world of programming and development since the start of my college journey and have started gaining interest in this field. Looking forward to gain more experience and have more fun in coding.
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+            <!--SKILLS-->
+            <section class="skill" id="skill">
+                <div class="max-width">
+                    <h2 class="section-title">Skills</h2>
+                    
+                    <div class="skill-content">
+                        <div class="box"><i class='bx bxl-c-plus-plus box-logo'></i><div class="box-title">C++</div><p class="box-text">I have learned <strong>C++</strong>programming language in the first semester of my B.tech degree and I write all my CP codes in this language only.</p></div>
+                        <div class="box"><i class='bx bxl-python box-logo' ></i><div class="box-title">Python</div><p class="box-text">I have learned the basics of <strong>python</strong> programming and some of its libraries in my class 11th and 12th.</p></div>
+                        <div class="box"><i class='bx bxl-html5 box-logo'></i><div class="box-title">Web Development</div><p class="box-text">I am currently attaining the understanding web development as a frontend developer and have the basic understanding of <strong>HTML,</strong> <strong>CSS</strong> and learning <strong>JavaScript</strong> currently.</p></div>
+                        <div class="box"><i class='bx bx-code box-logo'></i></i><div class="box-title">Competitive programming</div><p class="box-text">I am currently practicing <strong>Competitive programming</strong> using <strong>C++</strong> language and also have a little knowledge about the Data Structures and Algorithms. I currently give <strong>CP contests</strong> at Codechef. This field is most fun and interesting to me.</p></div>
+                        <div class="box"><i class='bx bxs-vector box-logo'></i><div class="box-title">AI/ML</div><p class="box-text">I have quite a interest in <strong>Machine Learning</strong> and <strong>Artificial Intelligence</strong> and have recently started gaining knowledge about this field.</p></div>
+                        <div class="box"><i class='bx bxl-bitcoin box-logo'></i><div class="box-title">Blockchain Development</div><p class="box-text">Introduction to this field of <strong>cryptocurrency</strong> and its development  has sounded very exciting to me and I'm looking forward to gain more knowledge about blockchain technology.</p></div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--CONTACT-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" placeholder="Message" id="" cols="0" rows="10" class="contact__input" ></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--FOOTER-->
+        <footer class="footer">
+            
+            <div> <p class="footer__title">Mayur Rajpal</p>
+            <p class="footer__copy">&#169; All rigths reserved</p>
+            </div>
+        </footer>
+       
+        <!--style switcher-->
+        <div class="style-switcher">
+            <div class="style-switcher-toggler s-icon">
+                <i class="bx bxs-palette"></i>
+            </div>
+            <div class="day-night s-icon">
+                <i class="fas fa-moon"></i>
+            </div>
+            <h4>Theme Colors</h4>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+
+        <script src="style-switcher.js"></script>
+        <script src="scrip.js"></script>
+    </body>
+</html>
